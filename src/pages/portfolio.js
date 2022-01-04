@@ -12,28 +12,27 @@ import $ from 'jquery';
 function Portfolio() {
   return (
     <div className="App">
-        <header>
+        {/* <header>
             <nav className="header-menu">
             <ul>
                 <li><a href="#top"><span>About</span></a></li>
                 <li><a href="#a2"><span>portfolio</span></a></li>
             </ul>
             </nav>
-        </header>
-        <div className="mb">
-            <p className="slide_txt on">
-            <span>K</span>
-            <span>I</span>
-            <span>M</span>
-            <span>J</span>
-            <span>I</span>
-            <span>E</span>
-            <span>U</span>
-            <span>N</span>
-            </p>
-        </div>
-
+        </header> */}
         <div className="blog-slider-wrap">
+            <div className="mb">
+                <p className="slide_txt on">
+                <span>K</span>
+                <span>I</span>
+                <span>M</span>
+                <span>J</span>
+                <span>I</span>
+                <span>E</span>
+                <span>U</span>
+                <span>N</span>
+                </p>
+            </div>
             <div className="blog-slider">
             <div className="blog-slider__wrp swiper-wrapper">
                 <div className="blog-slider__item swiper-slide">
@@ -73,6 +72,9 @@ function Portfolio() {
             </div>
             <div className="blog-slider__pagination"></div>
             </div>
+        </div>
+        <div>
+            testsetste
         </div>
     </div>
   );
